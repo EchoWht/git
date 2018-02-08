@@ -1,4 +1,4 @@
-##一.项目提交
+##  一.项目提交
 1. 先拉取最新的内容
 git pull
 2. 添加当前新增或修改的文件
@@ -9,7 +9,7 @@ git commit -m""
 git push -u origin master
 
 
-##二.合并分支
+##  二.合并分支
 
 1. 切换到主分支
 git checkout master
@@ -24,7 +24,7 @@ git merge wht
 git push -u origin master
 
 
-##三.本地文件已修改，需要强制pull
+##  三.本地文件已修改，需要强制pull
 
 git fetch --all  
 git reset --hard origin/master 
