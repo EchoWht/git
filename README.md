@@ -45,6 +45,9 @@ git pull
     git log --grep=word
     2.  查询某个提交人的关键词
     git log --author echowht --grep=word
+    3.  查询某个文件每一行最后操作的用户，并且导出到具体文件
+    git blame xxx.c >blame.log
+    
 ## 导出
     1. 导出某个提交人的commit log(导出结果在项目的根目录)
     git log --author echowht log.txt
